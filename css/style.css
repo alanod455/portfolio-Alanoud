@@ -1,5 +1,37 @@
+/* ["64113f","de4d86","f29ca3","f7cacd","84e6f8"]);  */
+
 * {
-    font-size: large;
-    text-align: center;
+    /* font-size: large; */
+    /* text-align: center; */
     margin: 0 auto;
+}
+
+body {
+
+    background: linear-gradient(to left, #64113f, #f7cacd);
+    display: flex;
+
+}
+
+body img  {
+    background-color: blue;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-size: 2rem;
+    color: red;
+    border: #64113f solid 3px;
+}
+
+body img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #f29ca3, 0 0 30px #f29ca3, 0 0 45px #f29ca3;
+    border: #f29ca3 solid 3px;
 }
