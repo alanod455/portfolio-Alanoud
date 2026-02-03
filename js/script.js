@@ -1,7 +1,3 @@
-/* ===========================
-   LANGUAGE TRANSLATION SYSTEM
-   =========================== */
-
 const translations = {
   en: {
     "logo": "Alanoud Almarshad",
@@ -134,10 +130,6 @@ const translations = {
   }
 };
 
-/* ===========================
-   APPLY LANGUAGE
-   =========================== */
-
 function setLanguage(lang) {
   for (let key in translations[lang]) {
     const el = document.getElementById(key);
@@ -168,18 +160,12 @@ function setLanguage(lang) {
   }
 }
 
-/* ===========================
-   HAMBURGER MENU
-   =========================== */
 
 function toggleMenu() {
   const menu = document.getElementById("mobile-menu");
   menu.classList.toggle("active");
 }
 
-/* ===========================
-   SCROLL REVEAL ANIMATIONS
-   =========================== */
 
 const revealElements = document.querySelectorAll(".section");
 
@@ -195,10 +181,6 @@ function revealOnScroll() {
 window.addEventListener("scroll", revealOnScroll);
 revealOnScroll();
 
-/* ===========================
-   STAGGERED CARD ANIMATION
-   =========================== */
-
 const cards = document.querySelectorAll(".card");
 
 cards.forEach((card, index) => {
@@ -206,7 +188,4 @@ cards.forEach((card, index) => {
   card.classList.add("fade-up");
 });
 
-/* ===========================
-   DEFAULT LANGUAGE
-   =========================== */
 setLanguage("en");
