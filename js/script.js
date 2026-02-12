@@ -134,7 +134,6 @@ function setLanguage(lang) {
   for (let key in translations[lang]) {
     const el = document.getElementById(key);
 
-    // Special handling for links
     if (key === "email-link") {
       document.getElementById("email-link").textContent = translations[lang][key];
       continue;
@@ -163,7 +162,10 @@ function setLanguage(lang) {
 
 function toggleMenu() {
   const menu = document.getElementById("mobile-menu");
+  const burger = document.querySelector(".hamburger");
+
   menu.classList.toggle("active");
+  burger.classList.toggle("open");
 }
 
 
