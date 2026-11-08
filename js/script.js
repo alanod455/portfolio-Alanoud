@@ -1,193 +1,636 @@
+/* =========================
+   TRANSLATIONS
+========================= */
+
 const translations = {
+
   en: {
+
     "logo": "Alanoud Almarshad",
+
     "nav-about": "About",
+    "nav-expertise": "Expertise",
     "nav-skills": "Skills",
+    "nav-education": "Education",
     "nav-projects": "Projects",
     "nav-experience": "Experience",
     "nav-contact": "Contact",
 
-    "hero-title": "Full Stack Web Developer",
-    "hero-subtitle": "Specializing in React, Django REST, and user-focused digital experiences.",
-    "btn-projects": "View Projects",
-    "btn-contact": "Contact Me",
+    "hero-tag":
+      "IT Graduate • Software Developer",
 
-    "about-title": "About Me",
-    "about-text":
-      "I’m Alanoud Almarshad, a Full Stack Web Developer passionate about building seamless, user-friendly digital experiences. I focus on creating clean, modern interfaces and efficient backend systems.",
+    "hero-title":
+      "Building Practical Digital Solutions",
 
-    "skills-title": "Skills",
-    "skill-frontend-title": "Frontend",
-    "skill-frontend-text": "React, JavaScript, HTML, CSS",
-    "skill-backend-title": "Backend",
-    "skill-backend-text": "Django REST, Python",
-    "skill-db-title": "Databases",
-    "skill-db-text": "PostgreSQL, SQL Server, Firebase",
-    "skill-soft-title": "Soft Skills",
-    "skill-soft-text": "Leadership, problem-solving, bilingual communication",
+    "hero-description":
+      "Software Developer passionate about transforming ideas into impactful digital products through software engineering, modern technologies, and user-centered design.",
 
-    "projects-title": "Projects",
-    "proj1-title": "Space App",
-    "proj1-tech": "React, Django REST",
-    "proj1-li1": "Focus timer with ambient sounds",
-    "proj1-li2": "Responsive space-themed UI",
+    "hero-btn-projects":
+      "Explore My Work",
 
-    "proj2-title": "ProMerge",
-    "proj2-tech": "JavaScript, Firebase, OpenAI API",
-    "proj2-li1": "Automated document generation",
-    "proj2-li2": "Email delivery of PDFs",
+    "hero-btn-cv":
+      "Download CV",
 
-    "proj3-title": "Hawalik – iOS App",
-    "proj3-tech": "Swift, SwiftUI, Firebase",
-    "proj3-li1": "Peer-to-peer car rental",
-    "proj3-li2": "Secure flows + MapKit",
+    "about-title":
+      "Who I Am",
 
-    "experience-title": "Experience",
-    "exp1-title": "King Fahad Medical City",
-    "exp1-date": "06/2024 – 08/2024",
-    "exp1-li1": "Web/database apps using C#, SQL Server",
-    "exp1-li2": "Business analysis + system design",
+    "about-text-1":
+      "I'm Alanoud Abdulaziz Almarshad, an Information Technology graduate passionate about building practical and meaningful digital solutions.",
 
-    "contact-title": "Contact",
-    "contact-text": "Feel free to reach out!",
-    "cv-download": "Download CV",
+    "about-text-2":
+      "My experience spans software development, web applications, mobile development, database systems, business analysis, and system design.",
 
-    "email-label": "Email:",
-    "email-link": "alanod282@gmail.com",
+    "about-text-3":
+      "I enjoy transforming ideas into products that are user-focused, scalable, and capable of solving real-world challenges.",
 
-    "github-label": "GitHub:",
-    "github-link": "github.com/alanod455",
+    "expertise-title":
+      "What I Do",
 
-    "linkedin-label": "LinkedIn:",
-    "linkedin-link": "linkedin.com/in/alanoud",
+    "expertise1-title":
+      "Software Development",
 
-    "footer-text": "© 2026 Alanoud Almarshad"
+    "expertise1-text":
+      "Building modern web and mobile applications using modern development technologies.",
+
+    "expertise2-title":
+      "Data & Systems",
+
+    "expertise2-text":
+      "Designing databases and systems that support business objectives.",
+
+    "expertise3-title":
+      "Business Analysis",
+
+    "expertise3-text":
+      "Understanding requirements and transforming them into technical solutions.",
+
+    "skills-title":
+      "Technologies & Tools",
+
+    "education-title":
+      "Education & Certifications",
+
+    "edu1-title":
+      "Bachelor of Information Technology",
+
+    "edu1-text":
+      "Cybersecurity Track - Saudi Electronic University",
+
+    "edu2-title":
+      "Software Development Bootcamp",
+
+    "edu2-text":
+      "Saudi Digital Academy - Python Development",
+
+    "edu3-title":
+      "Mobile App Development Camp",
+
+    "edu3-text":
+      "Tuwaiq Academy - Swift Development",
+
+    "edu4-title":
+      "PCEP™ Certification",
+
+    "edu4-text":
+      "Certified Entry-Level Python Programmer",
+
+    "projects-title":
+      "Featured Projects",
+
+    "proj1-subtitle":
+      "Project Documentation & Management Platform",
+
+    "proj1-text":
+      "Led the development of a platform that streamlines project documentation workflows and improves productivity.",
+
+    "proj2-subtitle":
+      "Productivity & Focus Platform",
+
+    "proj2-text":
+      "A web application that provides productivity tools and immersive user experiences.",
+
+    "proj3-subtitle":
+      "iOS Vehicle Rental Platform",
+
+    "proj3-text":
+      "A SwiftUI application connecting vehicle owners and renters through a secure rental experience.",
+
+    "experience-title":
+      "Professional Experience",
+
+    "exp1-title":
+      "Ministry of Communications and Information Technology",
+
+    "exp1-role":
+      "Tamheer Program",
+
+    "exp1-text":
+      "Worked within the Center of Digital Entrepreneurship (CODE), supporting startups through technology partnerships and entrepreneurship initiatives.",
+
+    "exp2-title":
+      "King Fahad Medical City",
+
+    "exp2-role":
+      "Cooperative Training",
+
+    "exp2-text":
+      "Participated in web development, database applications, business analysis, and system design initiatives.",
+
+    "vision-title":
+      "Beyond Technology",
+
+    "vision-text":
+      "Great software is not just about writing code.\nIt's about understanding people's needs and building solutions that create real value.",
+
+    "contact-title":
+      "Let's Build Something Meaningful",
+
+    "contact-text":
+      "Whether it's a collaboration, project, or professional opportunity, I'd be happy to connect.",
+
+    "contact-cv":
+      "Download My Resume",
+
+    "footer-text":
+      "Designed & Developed by Alanoud Almarshad"
   },
 
   ar: {
+
     "logo": "العنود المرشد",
+
     "nav-about": "نبذة",
+    "nav-expertise": "مجالات العمل",
     "nav-skills": "المهارات",
+    "nav-education": "التعليم",
     "nav-projects": "المشاريع",
-    "nav-experience": "الخبرة",
+    "nav-experience": "الخبرات",
     "nav-contact": "تواصل",
 
-    "hero-title": "مطوّرة ويب شاملة",
-    "hero-subtitle": "متخصصة في React و Django REST وصناعة تجارب رقمية تركز على المستخدم.",
-    "btn-projects": "عرض المشاريع",
-    "btn-contact": "تواصل معي",
+    "hero-tag":
+      "خريجة تقنية معلومات • مطورة برمجيات",
 
-    "about-title": "نبذة عني",
-    "about-text":
-      "أنا العنود المرشد، مطوّرة ويب شاملة شغوفة ببناء تجارب رقمية سلسة وسهلة الاستخدام. أركز على تصميم واجهات حديثة ونظيفة، وبناء أنظمة خلفية فعّالة.",
+    "hero-title":
+      "بناء حلول رقمية عملية وفعالة",
 
-    "skills-title": "المهارات",
-    "skill-frontend-title": "الواجهة الأمامية",
-    "skill-frontend-text": "React, JavaScript, HTML, CSS",
-    "skill-backend-title": "الواجهة الخلفية",
-    "skill-backend-text": "Django REST, Python",
-    "skill-db-title": "قواعد البيانات",
-    "skill-db-text": "PostgreSQL, SQL Server, Firebase",
-    "skill-soft-title": "مهارات شخصية",
-    "skill-soft-text": "القيادة، حل المشكلات، التواصل بلغتين",
+    "hero-description":
+      "مطورة برمجيات شغوفة بتحويل الأفكار إلى منتجات رقمية مؤثرة من خلال تطوير البرمجيات والتقنيات الحديثة وتجربة المستخدم.",
 
-    "projects-title": "المشاريع",
-    "proj1-title": "Space App",
-    "proj1-tech": "React, Django REST",
-    "proj1-li1": "مؤقت تركيز مع أصوات محيطة",
-    "proj1-li2": "واجهة فضائية متجاوبة",
+    "hero-btn-projects":
+      "استعرض أعمالي",
 
-    "proj2-title": "ProMerge",
-    "proj2-tech": "JavaScript, Firebase, OpenAI API",
-    "proj2-li1": "توليد المستندات تلقائيًا",
-    "proj2-li2": "إرسال ملفات PDF عبر البريد",
+    "hero-btn-cv":
+      "تحميل السيرة الذاتية",
 
-    "proj3-title": "Hawalik – تطبيق iOS",
-    "proj3-tech": "Swift, SwiftUI, Firebase",
-    "proj3-li1": "تأجير السيارات بين المستخدمين",
-    "proj3-li2": "تدفقات آمنة + الخرائط",
+    "about-title":
+      "من أنا",
 
-    "experience-title": "الخبرة",
-    "exp1-title": "مدينة الملك فهد الطبية",
-    "exp1-date": "06/2024 – 08/2024",
-    "exp1-li1": "تطوير تطبيقات الويب وقواعد البيانات باستخدام C# و SQL Server",
-    "exp1-li2": "تحليل الأعمال وتصميم الأنظمة",
+    "about-text-1":
+      "أنا العنود المرشد، خريجة تقنية معلومات شغوفة ببناء حلول رقمية عملية وذات قيمة.",
 
-    "contact-title": "تواصل",
-    "contact-text": "يسعدني تواصلك!",
-    "cv-download": "تحميل السيرة الذاتية",
+    "about-text-2":
+      "تشمل خبراتي تطوير البرمجيات وتطبيقات الويب والجوال وقواعد البيانات وتحليل الأعمال.",
 
-    "email-label": "البريد الإلكتروني:",
-    "email-link": "alanod282@gmail.com",
+    "about-text-3":
+      "أستمتع بتحويل الأفكار إلى منتجات قابلة للتطوير وتلبي احتياجات المستخدمين.",
 
-    "github-label": "جيت هب:",
-    "github-link": "github.com/alanod455",
+    "expertise-title":
+      "ما الذي أعمل عليه",
 
-    "linkedin-label": "لينكدإن:",
-    "linkedin-link": "linkedin.com/in/alanoud",
+    "expertise1-title":
+      "تطوير البرمجيات",
 
-    "footer-text": "© 2026 العنود المرشد"
+    "expertise1-text":
+      "تطوير تطبيقات الويب والجوال باستخدام أحدث التقنيات.",
+
+    "expertise2-title":
+      "قواعد البيانات والأنظمة",
+
+    "expertise2-text":
+      "تصميم قواعد البيانات والأنظمة الداعمة للأعمال.",
+
+    "expertise3-title":
+      "تحليل الأعمال",
+
+    "expertise3-text":
+      "فهم الاحتياجات وتحويلها إلى حلول تقنية فعالة.",
+
+    "skills-title":
+      "التقنيات والأدوات",
+
+    "education-title":
+      "التعليم والشهادات",
+
+    "edu1-title":
+      "بكالوريوس تقنية المعلومات",
+
+    "edu1-text":
+      "مسار الأمن السيبراني - الجامعة السعودية الإلكترونية",
+
+    "edu2-title":
+      "معسكر تطوير البرمجيات",
+
+    "edu2-text":
+      "الأكاديمية السعودية الرقمية - Python",
+
+    "edu3-title":
+      "معسكر تطوير تطبيقات الجوال",
+
+    "edu3-text":
+      "أكاديمية طويق - Swift",
+
+    "edu4-title":
+      "شهادة PCEP",
+
+    "edu4-text":
+      "مستوى المبتدئين في لغة Python",
+
+    "projects-title":
+      "المشاريع المميزة",
+
+    "proj1-subtitle":
+      "منصة إدارة وتوثيق المشاريع",
+
+    "proj2-subtitle":
+      "منصة للإنتاجية والتركيز",
+
+    "proj3-subtitle":
+      "تطبيق iOS لتأجير السيارات",
+
+    "proj1-text":
+      "المساهمة في تطوير منصة تسهل إدارة الوثائق وتحسين الإنتاجية.",
+
+    "proj2-text":
+      "تطبيق ويب يوفر أدوات للتركيز والإنتاجية وتجربة استخدام تفاعلية.",
+
+    "proj3-text":
+      "تطبيق SwiftUI يربط بين ملاك السيارات والمستأجرين بطريقة آمنة.",
+
+    "experience-title":
+      "الخبرات العملية",
+
+    "exp1-title":
+      "وزارة الاتصالات وتقنية المعلومات",
+
+    "exp1-role":
+      "برنامج تمهير",
+
+    "exp1-text":
+      "المشاركة في دعم الشركات الناشئة والتنسيق مع مزودي الخدمات التقنية ضمن مركز ريادة الأعمال الرقمية.",
+
+    "exp2-title":
+      "مدينة الملك فهد الطبية",
+
+    "exp2-role":
+      "التدريب التعاوني",
+
+    "exp2-text":
+      "المشاركة في تطوير الأنظمة وتطبيقات الويب وتحليل الأعمال.",
+
+    "vision-title":
+      "ما بعد التقنية",
+
+    "vision-text":
+      "التقنية ليست مجرد كتابة كود، بل فهم الاحتياجات وبناء حلول تقدم قيمة حقيقية.",
+
+    "contact-title":
+      "لنصنع شيئاً مميزاً",
+
+    "contact-text":
+      "يسعدني التواصل بشأن الفرص والمشاريع والتعاون المهني.",
+
+    "contact-cv":
+      "تحميل السيرة الذاتية",
+
+    "footer-text":
+      "تصميم وتطوير العنود المرشد"
   }
 };
 
+/* =========================
+   LANGUAGE SWITCHER
+========================= */
+
 function setLanguage(lang) {
+
   for (let key in translations[lang]) {
-    const el = document.getElementById(key);
 
-    if (key === "email-link") {
-      document.getElementById("email-link").textContent = translations[lang][key];
-      continue;
-    }
-    if (key === "github-link") {
-      document.getElementById("github-link").textContent = translations[lang][key];
-      continue;
-    }
-    if (key === "linkedin-link") {
-      document.getElementById("linkedin-link").textContent = translations[lang][key];
-      continue;
-    }
+    const element =
+      document.getElementById(key);
 
-    if (el) el.textContent = translations[lang][key];
+    if (element) {
+
+      element.textContent =
+        translations[lang][key];
+    }
   }
 
   if (lang === "ar") {
-    document.body.dir = "rtl";
-    document.body.style.textAlign = "right";
+
+    document.documentElement.lang = "ar";
+    document.documentElement.dir = "rtl";
+
+    currentRoles = rolesAr;
+
   } else {
-    document.body.dir = "ltr";
-    document.body.style.textAlign = "left";
+
+    document.documentElement.lang = "en";
+    document.documentElement.dir = "ltr";
+
+    currentRoles = rolesEn;
   }
+
+  roleIndex = 0;
+  charIndex = 0;
+  deleting = false;
+}
+/* =========================
+   TYPEWRITER
+========================= */
+
+const rolesEn = [
+  "Software Developer",
+  "IT Graduate",
+  "Web Developer",
+  "Mobile App Developer",
+];
+
+const rolesAr = [
+  "مطورة برمجيات",
+  "خريجة تقنية معلومات",
+  "مطورة ويب",
+  "مطورة تطبيقات جوال",
+];
+
+let currentRoles = rolesEn;
+
+let roleIndex = 0;
+let charIndex = 0;
+let deleting = false;
+
+const roleElement =
+  document.getElementById("dynamic-role");
+
+function typeWriter() {
+
+  if (!roleElement) return;
+
+  const currentRole =
+    currentRoles[roleIndex];
+
+  if (!deleting) {
+
+    roleElement.textContent =
+      currentRole.substring(
+        0,
+        charIndex + 1
+      );
+
+    charIndex++;
+
+    if (charIndex === currentRole.length) {
+
+      deleting = true;
+
+      setTimeout(typeWriter, 1500);
+
+      return;
+    }
+
+  } else {
+
+    roleElement.textContent =
+      currentRole.substring(
+        0,
+        charIndex - 1
+      );
+
+    charIndex--;
+
+    if (charIndex === 0) {
+
+      deleting = false;
+
+      roleIndex++;
+
+      if (
+        roleIndex >= currentRoles.length
+      ) {
+        roleIndex = 0;
+      }
+    }
+  }
+
+  setTimeout(
+    typeWriter,
+    deleting ? 50 : 100
+  );
 }
 
+typeWriter();
 
-function toggleMenu() {
-  const menu = document.getElementById("mobile-menu");
-  const burger = document.querySelector(".hamburger");
-
-  menu.classList.toggle("active");
-  burger.classList.toggle("open");
-}
+/* =========================
+   SMOOTH SCROLL
+========================= */
 
 
-const revealElements = document.querySelectorAll(".section");
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
-function revealOnScroll() {
-  revealElements.forEach((el) => {
-    const rect = el.getBoundingClientRect();
-    if (rect.top < window.innerHeight - 100) {
-      el.classList.add("visible");
+  anchor.addEventListener("click", function (e) {
+
+    e.preventDefault();
+
+    const target =
+      document.querySelector(this.getAttribute("href"));
+
+    if (target) {
+
+      target.scrollIntoView({
+        behavior: "smooth"
+      });
+
+      const menu = document.querySelector("nav");
+      if (menu && menu.classList.contains("active")) {
+        menu.classList.remove("active");
+      }
+    }
+
+  });
+
+});
+
+/* =========================
+   SCROLL REVEAL
+========================= */
+
+const observer = new IntersectionObserver(
+
+  entries => {
+
+    entries.forEach(entry => {
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      }
+
+    });
+
+  },
+
+  {
+    threshold: 0.15
+  }
+);
+
+document.querySelectorAll(
+  "section:not(.hero), .card, .project, .timeline-item"
+).forEach(el => {
+
+  el.classList.add("hidden");
+  observer.observe(el);
+
+});
+
+/* =========================
+   ACTIVE MENU
+========================= */
+
+const sections =
+  document.querySelectorAll("section");
+
+const navLinks =
+  document.querySelectorAll("nav a");
+
+window.addEventListener("scroll", () => {
+
+  let current = "";
+
+  sections.forEach(section => {
+
+    const sectionTop =
+      section.offsetTop - 150;
+
+    if (window.scrollY >= sectionTop) {
+      current = section.getAttribute("id");
     }
   });
+
+  navLinks.forEach(link => {
+
+    link.classList.remove("active");
+
+    if (
+      link.getAttribute("href") ===
+      `#${current}`
+    ) {
+      link.classList.add("active");
+    }
+
+  });
+
+});
+
+/* =========================
+   NAVBAR EFFECT
+========================= */
+
+const navbar =
+  document.querySelector(".navbar");
+
+window.addEventListener("scroll", () => {
+
+  if (window.scrollY > 50) {
+
+    navbar.classList.add("navbar-scrolled");
+
+  } else {
+
+    navbar.classList.remove("navbar-scrolled");
+  }
+});
+function toggleMenu() {
+
+  const menu =
+    document.querySelector("nav");
+
+  menu.classList.toggle("active");
 }
 
-window.addEventListener("scroll", revealOnScroll);
-revealOnScroll();
+/* =========================
+   COUNTERS
+========================= */
 
-const cards = document.querySelectorAll(".card");
+const counters =
+  document.querySelectorAll(".counter");
 
-cards.forEach((card, index) => {
-  card.style.animationDelay = `${index * 0.15}s`;
-  card.classList.add("fade-up");
+const counterObserver =
+  new IntersectionObserver(entries => {
+
+    entries.forEach(entry => {
+
+      if (!entry.isIntersecting) return;
+
+      const counter = entry.target;
+      const target = counter.dataset.target;
+
+      let current = 0;
+
+      const update = () => {
+
+        current += target / 100;
+
+        if (current < target) {
+
+          counter.innerText =
+            Math.ceil(current);
+
+          requestAnimationFrame(update);
+
+        } else {
+
+          counter.innerText = target;
+        }
+      };
+
+      update();
+    });
+
+  });
+
+counters.forEach(counter => {
+  counterObserver.observe(counter);
 });
+
+/* =========================
+   BACK TO TOP
+========================= */
+
+const topButton =
+  document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+
+  if (window.scrollY > 500) {
+
+    topButton.classList.add("show");
+
+  } else {
+
+    topButton.classList.remove("show");
+  }
+});
+
+topButton?.addEventListener("click", () => {
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+
+});
+
+/* =========================
+   DEFAULT LANGUAGE
+========================= */
 
 setLanguage("en");

@@ -2,162 +2,420 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alanoud Almarshad | Portfolio</title>
-  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-  <header class="navbar">
-    <div class="logo" id="logo">Alanoud Almarshad</div>
+  <!-- Navbar -->
+<header class="navbar">
 
-    <nav class="nav-links" id="mobile-menu">
-      <a id="nav-about" href="#about">About</a>
-      <a id="nav-skills" href="#skills">Skills</a>
-      <a id="nav-projects" href="#projects">Projects</a>
-      <a id="nav-experience" href="#experience">Experience</a>
-      <a id="nav-contact" href="#contact">Contact</a>
+    <div class="logo" id="logo">
+        Alanoud Almarshad
+    </div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <nav id="main-nav">
+
+        <a id="nav-about" href="#about">About</a>
+        <a id="nav-expertise" href="#expertise">Expertise</a>
+        <a id="nav-skills" href="#tech">Skills</a>
+        <a id="nav-education" href="#education">Education</a>
+        <a id="nav-projects" href="#projects">Projects</a>
+        <a id="nav-experience" href="#experience">Experience</a>
+        <a id="nav-contact" href="#contact">Contact</a>
+
     </nav>
 
     <div class="lang-switch">
-      <button onclick="setLanguage('en')">EN</button>
-      <button onclick="setLanguage('ar')">AR</button>
+        <button onclick="setLanguage('en')">EN</button>
+        <button onclick="setLanguage('ar')">AR</button>
     </div>
 
-    <div class="hamburger" onclick="toggleMenu()">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    
-  </header>
+</header>
 
-  <section class="hero fade-in">
-    <h1 id="hero-title">Full Stack Web Developer</h1>
-    <p id="hero-subtitle">
-      Specializing in React, Django REST, and user-focused digital experiences.
+  <!-- Hero -->
+
+  <section class="hero">
+
+    <span class="tag" id="hero-tag">
+      IT Graduate • Software Developer
+    </span>
+
+    <h1 id="hero-title">
+      Building Practical Digital Solutions
+    </h1>
+
+    <p id="hero-description">
+
+      Software Developer passionate about transforming ideas
+      into impactful digital products through software engineering,
+      modern technologies, and user-centered design.
+
     </p>
+
+    <div class="typing-wrapper">
+      <span id="dynamic-role"></span>
+    </div>
 
     <div class="hero-buttons">
-      <a href="#projects" class="btn primary" id="btn-projects">View Projects</a>
-      <a href="#contact" class="btn secondary" id="btn-contact">Contact Me</a>
-    </div>
-  </section>
 
-  <section id="about" class="section fade-up">
-    <h2 id="about-title">About Me</h2>
-    <p id="about-text">
-      I’m Alanoud Almarshad, a Full Stack Web Developer passionate about building seamless, user-friendly digital
-      experiences.
-      I focus on creating clean, modern interfaces and efficient backend systems.
-    </p>
-  </section>
+      <a href="#projects" class="primary-btn" id="hero-btn-projects">
 
-  <section id="skills" class="section fade-up">
-    <h2 id="skills-title">Skills</h2>
+        Explore My Work
 
-    <div class="grid">
-      <div class="card">
-        <h3 id="skill-frontend-title">Frontend</h3>
-        <p id="skill-frontend-text">React, JavaScript, HTML, CSS</p>
-      </div>
-
-      <div class="card">
-        <h3 id="skill-backend-title">Backend</h3>
-        <p id="skill-backend-text">Django REST, Python</p>
-      </div>
-
-      <div class="card">
-        <h3 id="skill-db-title">Databases</h3>
-        <p id="skill-db-text">PostgreSQL, SQL Server, Firebase</p>
-      </div>
-
-      <div class="card">
-        <h3 id="skill-soft-title">Soft Skills</h3>
-        <p id="skill-soft-text">Leadership, problem-solving, bilingual communication</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects" class="section fade-up">
-    <h2 id="projects-title">Projects</h2>
-
-    <div class="grid">
-      <div class="card">
-        <h3 id="proj1-title">Space App</h3>
-        <p id="proj1-tech">React, Django REST</p>
-        <ul>
-          <li id="proj1-li1">Focus timer with ambient sounds</li>
-          <li id="proj1-li2">Responsive space-themed UI</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3 id="proj2-title">ProMerge</h3>
-        <p id="proj2-tech">JavaScript, Firebase, OpenAI API</p>
-        <ul>
-          <li id="proj2-li1">Automated document generation</li>
-          <li id="proj2-li2">Email delivery of PDFs</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3 id="proj3-title">Hawalik – iOS App</h3>
-        <p id="proj3-tech">Swift, SwiftUI, Firebase</p>
-        <ul>
-          <li id="proj3-li1">Peer-to-peer car rental</li>
-          <li id="proj3-li2">Secure flows + MapKit</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section id="experience" class="section fade-up">
-    <h2 id="experience-title">Experience</h2>
-
-    <div class="card">
-      <h3 id="exp1-title">King Fahad Medical City</h3>
-      <p id="exp1-date">06/2024 – 08/2024</p>
-      <ul>
-        <li id="exp1-li1">Web/database apps using C#, SQL Server</li>
-        <li id="exp1-li2">Business analysis + system design</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="contact" class="section fade-up">
-    <h2 id="contact-title">Contact</h2>
-    <p id="contact-text">Feel free to reach out!</p>
-
-    <p>
-      <a id="cv-download" href="assets/Alanoud-CV.pdf" download class="btn primary">Download CV</a>
-    </p>
-
-    <p id="email-label">Email:</p>
-    <p id="email-value">
-      <a id="email-link" href="mailto:alanod282@gmail.com">alanod282@gmail.com</a>
-    </p>
-
-    <p id="github-label">GitHub:</p>
-    <p id="github-value">
-      <a id="github-link" href="https://github.com/alanod455" target="_blank">github.com/alanod455</a>
-    </p>
-
-    <p id="linkedin-label">LinkedIn:</p>
-    <p id="linkedin-value">
-      <a id="linkedin-link" href="https://linkedin.com/in/alanoud-almarshad-9b7117252" target="_blank">
-        linkedin.com/in/alanoud
       </a>
-    </p>
+
+      <a href="assets/Alanoud-Almarshad-CV.pdf" class="secondary-btn" download id="hero-btn-cv">
+
+        Download CV
+
+      </a>
+
+    </div>
+
   </section>
 
-  <footer class="footer fade-in">
-    <p id="footer-text">© 2026 Alanoud Almarshad</p>
+  <!-- About -->
+
+  <section id="about">
+
+    <h2 id="about-title">
+      Who I Am
+    </h2>
+
+    <p id="about-text-1">
+      I'm Alanoud Abdulaziz Almarshad, an Information Technology graduate passionate about building practical and
+      meaningful digital solutions.
+    </p>
+
+    <p id="about-text-2">
+      My experience spans software development, web applications, mobile development, database systems, business
+      analysis, and system design.
+    </p>
+
+    <p id="about-text-3">
+      I enjoy transforming ideas into products that are user-focused, scalable, and capable of solving real-world
+      challenges.
+    </p>
+
+  </section>
+
+  <!-- Expertise -->
+
+  <section id="expertise">
+
+    <h2 id="expertise-title">
+      What I Do
+    </h2>
+
+    <div class="cards">
+
+      <div class="card">
+
+        <h3 id="expertise1-title">
+          Software Development
+        </h3>
+
+        <p id="expertise1-text">
+          Building modern web and mobile applications using modern development technologies.
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <h3 id="expertise2-title">
+          Data & Systems
+        </h3>
+
+        <p id="expertise2-text">
+          Designing databases and developing systems that support business goals.
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <h3 id="expertise3-title">
+          Business Analysis
+        </h3>
+
+        <p id="expertise3-text">
+          Understanding user requirements and transforming them into practical solutions.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Skills -->
+
+  <section id="tech">
+
+    <h2 id="skills-title">
+      Technologies & Tools
+    </h2>
+
+    <div class="skills">
+
+      <span>Python</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Django REST</span>
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>Swift</span>
+      <span>SwiftUI</span>
+      <span>SQL Server</span>
+      <span>PostgreSQL</span>
+      <span>Firebase</span>
+      <span>Power BI</span>
+      <span>GitHub</span>
+      <span>REST APIs</span>
+
+    </div>
+
+  </section>
+
+  <!-- Education -->
+
+  <section id="education">
+
+    <h2 id="education-title">
+      Education & Certifications
+    </h2>
+
+    <div class="cards">
+
+      <div class="card">
+
+        <h3 id="edu1-title">
+          Bachelor of Information Technology
+        </h3>
+
+        <p id="edu1-text">
+          Cybersecurity Track - Saudi Electronic University
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <h3 id="edu2-title">
+          Software Development Bootcamp
+        </h3>
+
+        <p id="edu2-text">
+          Saudi Digital Academy - Python Development
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <h3 id="edu3-title">
+          Mobile App Development Camp
+        </h3>
+
+        <p id="edu3-text">
+          Tuwaiq Academy - Swift Development
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <h3 id="edu4-title">
+          PCEP™ Certification
+        </h3>
+
+        <p id="edu4-text">
+          Certified Entry-Level Python Programmer
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Projects -->
+
+  <section id="projects">
+
+    <h2 id="projects-title">
+      Featured Projects
+    </h2>
+
+    <div class="project">
+
+      <h3>ProMerge</h3>
+
+      <span id="proj1-subtitle">
+        Project Documentation & Management Platform
+      </span>
+
+      <p id="proj1-text">
+        Led the development of a platform that streamlines project documentation workflows and improves productivity.
+      </p>
+
+    </div>
+
+    <div class="project">
+
+      <h3>Space App</h3>
+
+      <span id="proj2-subtitle">
+        Productivity & Focus Platform
+      </span>
+
+      <p id="proj2-text">
+        A web application that provides productivity tools and immersive user experiences.
+      </p>
+
+    </div>
+
+    <div class="project">
+
+      <h3>Hawalik</h3>
+
+      <span id="proj3-subtitle">
+        iOS Vehicle Rental Platform
+      </span>
+
+      <p id="proj3-text">
+        A SwiftUI application connecting vehicle owners and renters through a secure rental experience.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- Experience -->
+
+  <section id="experience">
+
+    <h2 id="experience-title">
+      Professional Experience
+    </h2>
+
+    <div class="timeline-item">
+
+      <h3 id="exp1-title">
+        Ministry of Communications and Information Technology
+      </h3>
+
+      <span id="exp1-role">
+        Tamheer Program
+      </span>
+
+      <p id="exp1-text">
+
+        Worked within the Center of Digital Entrepreneurship (CODE),
+        supporting startups through technology partnerships,
+        digital services, and entrepreneurship initiatives.
+
+      </p>
+
+    </div>
+
+    <div class="timeline-item">
+
+      <h3 id="exp2-title">
+        King Fahad Medical City
+      </h3>
+
+      <span id="exp2-role">
+        Cooperative Training
+      </span>
+
+      <p id="exp2-text">
+
+        Participated in web development, database applications,
+        business analysis, and system design initiatives.
+
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- Vision -->
+
+  <section class="philosophy">
+
+    <h2 id="vision-title">
+      Beyond Technology
+    </h2>
+
+    <blockquote id="vision-text">
+
+      Great software is not just about writing code.
+      It's about understanding people's needs and building solutions that create real value.
+
+    </blockquote>
+
+  </section>
+
+  <!-- Contact -->
+
+  <section id="contact">
+
+    <h2 id="contact-title">
+      Let's Build Something Meaningful
+    </h2>
+
+    <p id="contact-text">
+      Whether it's a collaboration, project,
+      or professional opportunity, I'd be happy to connect.
+    </p>
+
+    <br>
+
+    <a href="mailto:alanod282@gmail.com">
+      alanod282@gmail.com
+    </a>
+
+    <br><br>
+
+    <a href="https://github.com/alanod455" target="_blank">
+      GitHub
+    </a>
+
+    <a href="https://linkedin.com/in/alanoud-almarshad" target="_blank">
+      LinkedIn
+    </a>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+
+    <p id="footer-text">
+      Designed & Developed by Alanoud Almarshad
+    </p>
+
   </footer>
 
+  <!-- Back To Top -->
+
+  <button id="backToTop">
+    ↑
+  </button>
+
   <script src="js/script.js"></script>
+
 </body>
 
 </html>
